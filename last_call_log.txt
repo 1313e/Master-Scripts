@@ -1,0 +1,182 @@
+ Starting the Hammurabi code 
+Parser: TE_constant_pccm = 0 <default>
+Parser: SunPosX = -8.5 <default>
+Parser: SunPosY = 0 <default>
+Parser: SunPosZ = 0 <default>
+Parser: TE_grid_filename = 'negrid_n400.bin'
+Parser: TE_interp = T
+Parser: TE_ec = F <default>
+Parser: TE_nx = 400
+Parser: TE_ny = 400
+Parser: TE_nz = 80
+Parser: TE_lx = 40 <default>
+Parser: TE_ly = 40 <default>
+Parser: TE_lz = 8 <default>
+Parser: TE_transform_lon = -999 <default>
+Parser: TE_transform_lat = -999 <default>
+Parser: TE_transform_R = 0 <default>
+Allocating memory for TE grid
+Reading TE grid
+TE file successfully read
+Parser: dust_distr_model = 1 <default>
+Parser: dust_spec_index = 2 <default>
+Parser: dust_template_frequency = 353 <default>
+Parser: dust_pol_frac = 0.1 <default>
+Parser: dust_pol_frac_model = 3 <default>
+Parser: dust_A_h_r = 3 <default>
+Parser: dust_A_h_d = 0.1 <default>
+Parser: dust_norm_ccm = 1 <default>
+Parser: obs_shell_index_numb = 1
+Parser: total_shell_numb = 3
+Parser: obs_NSIDE = 16
+Parser: vec_size_R = 500
+Parser: max_radius = 35
+Parser: min_radius = 0 <default>
+Parser: max_z = 999 <default>
+Parser: obs_mask_name = '' <default>
+Parser: x_diameter = 40 <default>
+Parser: y_diameter = 40 <default>
+Parser: z_diameter = 8 <default>
+Parser: simulation_boundary_type = 1 <default>
+Parser: obs_file_name = '/vol/astro2/users/gvelden/testrun_ellert/temp_hammurabi_gxhPr5/IQU_sync.fits'
+Parser: obs_dust_file_name = '/vol/astro2/users/gvelden/testrun_ellert/temp_hammurabi_gxhPr5/IQU_dust.fits'
+Parser: obs_RM_file_name = '/vol/astro2/users/gvelden/testrun_ellert/temp_hammurabi_gxhPr5/rm.fits'
+Parser: obs_DM_file_name = 'DM.fits' <default>
+Parser: obs_tau_file_name = 'tau.fits' <default>
+Parser: obs_ff_file_name = 'ff.fits' <default>
+Parser: PF_file_name = 'pol_fraction.fits' <default>
+Parser: defl_int_fname = 'defl_int.fits' <default>
+Parser: defl_ori_fname = 'defl_ori.fits' <default>
+Parser: sync_template_fname = '' <default>
+Parser: dust_template_fname = '' <default>
+Parser: I_PI_PA_flag = F <default>
+Parser: PF_flag = F <default>
+Parser: do_sync_emission = T
+Parser: do_rm = T
+Parser: do_dm = F
+Parser: do_tau = F
+Parser: do_ff = F
+Parser: class_Integrator loud = F <default>
+Parser: do_TE_Bran_coupling = F <default>
+Parser: TE_Bran_coupling = 0.01 <default>
+Parser: do_dust = T
+Parser: do_sync_renorm = F <default>
+Parser: do_dust_renorm = F <default>
+Parser: use_B_analytic = F
+Parser: B_field_debug = F <default>
+Parser: B_field_type = 7
+Parser: B_field_quiet = 0 <default>
+Parser: B_field_r_max = 30 <default>
+Parser: B_field_r_min = 0 <default>
+Parser: B_field_rmax_sun = 30 <default>
+Parser: B_analytic_beta = 0
+Parser: B_field_total_out = '' <default>
+Parser: b51_ran_b1 = 10.8
+Parser: b51_ran_b2 = 6.96
+Parser: b51_ran_b3 = 9.59
+Parser: b51_ran_b4 = 6.96
+Parser: b51_ran_b5 = 1.96
+Parser: b51_ran_b6 = 16.34
+Parser: b51_ran_b7 = 37.29
+Parser: b51_ran_b8 = 10.35
+Parser: b51_coh_b1 = 0.1
+Parser: b51_coh_b2 = 3
+Parser: b51_coh_b3 = -0.9
+Parser: b51_coh_b4 = -0.8
+Parser: b51_coh_b5 = -2
+Parser: b51_coh_b6 = -4.2
+Parser: b51_coh_b7 = 0
+Parser: b51_z0_spiral = 0.61
+Parser: b51_z0_smooth = 2.84
+Parser: b51_r0_smooth = 10.97
+Parser: b51_b0_smooth = 4.68
+Parser: b51_b0_x = 4.6
+Parser: b51_Xtheta = 49
+Parser: b51_r0_x = 2.9
+Parser: b51_h_disk = 0.4
+Parser: b51_Bn = 1.4
+Parser: b51_Bs = -1.1
+Parser: b51_z0_halo = 5.3
+Parser: b51_b_ring = 0.1
+Parser: b51_b0_interior = 7.63
+Parser: b51_r0_ran_disk = -1 <default>
+Parser: b51_reg_b0 = 1
+Parser: b51_shift = 1
+Parser: B_field_do_random = T
+Parser: B_field_cutoff = 5 <default>
+Parser: B_field_seed = 1247498306
+Parser: B_field_RMS_uG = 1
+Parser: B_field_random_renorm = T <default>
+Parser: B_field_c0_uG = 1 <default>
+Parser: B_field_nsamp = 3 <default>
+Parser: B_field_interp = T
+Parser: B_field_ec = F <default>
+Parser: B_field_nx = 350
+Parser: B_field_ny = 350
+Parser: B_field_nz = 350
+Parser: B_field_lx = 350
+Parser: B_field_ly = 350
+Parser: B_field_lz = 350
+Parser: B_field_transform_lon = -999
+Parser: B_field_transform_lat = -999
+Parser: B_field_transform_R = 0 <default>
+Parser: B_ran_mem_lim = 4
+Parser: B_field_alpha = -2.37 <default>
+Parser: B_field_random_out = '' <default>
+Parser: B_field_rmax_ran = 20 <default>
+Parser: B_field_random_inp = '' <default>
+Parser: B_f_ord = 0 <default>
+Parser: B_ran_h_d = 1 <default>
+Parser: B_ran_h_r = 10 <default>
+Parser: B_ran_h_d2 = 1 <default>
+Parser: B_ran_h_r2 = 10 <default>
+Parser: B_ran_b2 = 0 <default>
+Parser: B_ran_shot = F <default>
+Parser: list_use_lonlat_range = F <default>
+Parser: list_in_file_name = '' <default>
+
+
+----------------------
+HAMMURABI Sanity Check:
+
+DeltaR=0.07 kpc
+At R_max (max Nside=64), DeltaX=0.559632 kpc
+Random grid deltaX=1 kpc
+Random grid deltaY=1 kpc
+Random grid deltaZ=1 kpc
+Memory for grid:  1029 MB
+
+HAMMURABI Sanity Check done
+----------------------
+
+DEBUGGING:  given the nx, lx, and cutoff you specified, you have:
+DEBUGGING:     k_cutoff=0.2 and k0=0.333333
+[2017-04-26T11:21:09]  Allocating arrays for random component
+[2017-04-26T11:21:11]  Making FFTW3 plans
+[2017-04-26T11:21:25]  Filling grid in Fourier space
+[2017-04-26T11:21:34]  Running FFTs
+[2017-04-26T11:21:38]  Original RMS of result in x-direction is 643869
+[2017-04-26T11:21:38]  Original RMS of result in y-direction is 643797
+[2017-04-26T11:21:38]  Original RMS of result in z-direction is 643862
+[2017-04-26T11:21:38]  Resetting all to RMS/sqrt(3.)=0.57735
+Parser: Cfield_type = 1 <default>
+Parser: C1_p = 3 <default>
+Parser: C1_hr = 5 <default>
+Parser: C1_hz = 1 <default>
+Parser: C1_JE = 0.25 <default>
+Parser: obs_freq_GHz = 23
+Parser: do_defl_map = F <default>
+[2017-04-26T11:21:41]  integrate2obs_maps:  Observation shell has NSIDE 16
+[2017-04-26T11:21:41]  integrate2obs_maps:   shell number 1 at NSIDE 16
+[2017-04-26T11:21:41]   Current shell interval is [0 , 8.75]
+[2017-04-26T11:21:41]  integrate2obs_maps:   shell number 2 at NSIDE 32
+[2017-04-26T11:21:41]   Current shell interval is [8.75 , 17.5]
+[2017-04-26T11:21:41]  integrate2obs_maps:   shell number 3 at NSIDE 64
+[2017-04-26T11:21:41]   Current shell interval is [17.5 , 35]
+[2017-04-26T11:21:42]  integrate2obs_maps: integrate2obs_maps() finished 
+File /vol/astro2/users/gvelden/testrun_ellert/temp_hammurabi_gxhPr5/IQU_sync.fits does not exist;  writing
+[2017-04-26T11:21:42]  save_maps2file:  obs map saved to /vol/astro2/users/gvelden/testrun_ellert/temp_hammurabi_gxhPr5/IQU_sync.fits
+[2017-04-26T11:21:42]  save_maps2file:  obs dust map saved to /vol/astro2/users/gvelden/testrun_ellert/temp_hammurabi_gxhPr5/IQU_dust.fits
+[2017-04-26T11:21:42]  save_maps2file:  obs RM map saved to /vol/astro2/users/gvelden/testrun_ellert/temp_hammurabi_gxhPr5/rm.fits
+[2017-04-26T11:21:42]   Finishing the Hammurabi code
+
